@@ -36,7 +36,10 @@ Another screenshot of OpenTTD 1.8.0:
 
 ## Licenses
 
-Bitbake recipes are licensed under GNU GPLv2.
+Bitbake recipes are licensed under GNU GPLv2. 
+
+Inside the bitbake recipes the licenses are set to CLOSED for graphics/sound
+due to those download files not having license text included.
 
 ### OpenTTD
 
