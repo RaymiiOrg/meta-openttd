@@ -1,0 +1,14 @@
+diff --git openttd-1.0.0/src/fileio.cpp openttd-1.0.0/src/fileio.cpp
+index 08b2339..5851f2c 100644
+--- openttd-1.0.0/src/fileio.cpp
++++ openttd-1.0.0/src/fileio.cpp
+@@ -22,9 +22,7 @@
+ #include <Path.h>
+ #include <storage/FindDirectory.h>
+ #else
+-#if defined(OPENBSD) || defined(DOS)
+ #include <unistd.h>
+-#endif
+ #include <pwd.h>
+ #endif
+ #include <sys/stat.h>
