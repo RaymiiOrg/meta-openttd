@@ -70,10 +70,10 @@ yocto build tree, you can add it to the build system by adding the
 location of the meta-openttd layer to bblayers.conf, along with any
 other layers needed. e.g.:
 
-  BBLAYERS ?= " \
-    /path/to/yocto/meta \
-    /path/to/yocto/meta-poky \
-    /path/to/yocto/meta-yocto-bsp \
-    /path/to/yocto/meta-meta-openttd \
-    "
+    BBLAYERS ?= " \
+      /path/to/yocto/meta \
+      /path/to/yocto/meta-poky \
+      /path/to/yocto/meta-yocto-bsp \
+      /path/to/yocto/meta-meta-openttd \
+      "
 
