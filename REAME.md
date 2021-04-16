@@ -17,6 +17,7 @@ Author: Remy van Elst - https://raymii.org
 
 ## Screenshots 
 
+Screenshots are taken on a VAR-SOM-AM33 board with x11/xfce running.
 
 OpenTTD 1.0.0 with opensfx/opengfx 0.1.0:
 
@@ -57,28 +58,6 @@ Attribution-ShareAlike 3.0 Unported license.
 All other files, including text files, scripts, etc. are dual-licensed under:
 GNU General Public License version 2 (or later) and Common Development and
 Distribution License 1.1.
-
-
-
-## Dependencies
-
-This layer depends on:
-
-  URI: git://git.openembedded.org/bitbake
-  branch: dylan
-
-  URI: git://git.openembedded.org/openembedded-core
-  layers: meta
-  branch: dylan
-
-  URI: git://git.yoctoproject.org/xxxx
-  layers: xxxx
-  branch: master
-
-
-## Patches
-
-Please submit any patches against the meta-openttd layer through https://github.com/raymiiorg/meta-openttd
 
 
 ## Adding the meta-openttd layer to your build
